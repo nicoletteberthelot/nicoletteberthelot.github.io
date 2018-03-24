@@ -1,0 +1,29 @@
+body {
+	background: black;
+	color: white;
+	margin: 16px;
+	padding: 16px;
+}
+p {
+	border: 2px dotted;
+	border-color: green;
+	margin: 10px;
+	padding: 10px;
+}
+
+.stuff {
+	text-align: center;
+}
+
+.stuff li {
+	list-style-type: none;
+}
+.stuff h4 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.stuff a {
+		color: white;
+		max-width: 100px;
+		margin: auto;
+}
