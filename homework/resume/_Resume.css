@@ -1,0 +1,74 @@
+h1 {
+	font-family: 'Prata', serif;
+	font-size: 45px;
+	color: #000000;
+	font-weight: 100;
+	padding:0 auto;
+	margin: 16px 0 0 0;
+	padding: 0 auto;
+	line-height: 50px;
+}
+h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 22px;
+	color: #646b6f
+	font-weight:200;
+	padding: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 24px;
+}
+
+#images {
+	max-width: 50%;
+	display: block;
+	align-content: center;
+}
+#sections {
+	font-family: 'Prata', serif;
+	font-size: 24px;
+	color: #bd9092;
+	padding: 0 auto;
+	margin-top: 40px;
+	margin-bottom: -5px;
+}
+h3 {
+	font-family: 'Prata', serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #646b6f
+	padding: 0 auto;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+h4 {
+	font-family: 'Prata', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #000000;
+	font-weight:300;
+	padding:0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul {
+	list-style-type: none;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 16px;
+	color: #646b6f
+	font-weight: 200;
+	padding: 0 auto;
+	margin-left: -40px;
+	margin-top: -10px;
+	margin-bottom: 40px;
+	text-align: left;
+	line-height:20px;
+}
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #646b6f
+	padding: 0 auto;
+	text-align: left;
+}
