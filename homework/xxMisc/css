@@ -1,0 +1,13 @@
+body {
+  background: #ffffff;
+  }
+  h1 {
+      font-size: 35px;
+      font-family: open-sans;
+      text-align: left;
+      color:#646b6f;
+    }
+    p {
+  color: #000000;
+  text-align: left;
+}
