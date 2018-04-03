@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+.top-box {
+	display: inline-block;
+	background: lightgray;
+	border: 1px solid gray;
+	height: 250px;
+	width: 100%;
+	margin: 20px 20px 20px 20px;
+}
+.left-box {
+	background: lightgray;
+	border: 1px solid gray;
+	height: 500px;
+	width: 75%;
+	margin: 0px 20px 20px 20px;
+	flex: 3;
+}
+.right-box {
+	background: lightgray;
+	border: 1px solid gray;
+	height: 500px;
+	width: 25%;
+	margin: 0px 20px 20px 0px;
+	flex: 1;
+}
+.bottom-box {
+	display: inline-block;
+	background: lightgray;
+	border: 1px solid gray;
+	height: 250px;
+	width: 100%;
+	margin: 0px 20px 20px 20px;
+}

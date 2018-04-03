@@ -7,13 +7,13 @@
 	margin: 0px 0px;
 	padding: 20px;
 }
- img {
+img {
       margin: 0px;
       max-width: 500px;
     }
 ul {
-    	padding: 20px 0px;
-    	text-align: center;
+    padding: 20px 0px;
+    text-align: center;
     }
 li {
 	font-family: "helvetica", sans-serif;
