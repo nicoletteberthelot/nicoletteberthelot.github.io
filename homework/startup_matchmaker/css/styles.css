@@ -62,7 +62,7 @@ h2 {
 	display: flex;
 	align-items: flex-end;
 	flex-direction: row;
-	background-image: url('/Users/nicoletteberthelot/Documents/GitHub/nicoletteberthelot.github.io/homework/startup_matchmaker/img/coworking.jpg');
+	background-image: url('../img/coworking.jpg');
 	max-width: 100%;
 	background-size: cover;
 	position: relative;
@@ -91,21 +91,27 @@ h3 {
 input {
 	display: flex;
 	font-family: 'Oswald', sans-serif;
-	background: yellow;
 	color: black;
 	font-size: 17px;
 	text-align: center;
 	width: 90%;
 	height: 50px;
 	padding: 5px;
-	margin: 20px;
 	box-shadow: 1px 1px 1px grey;
 	border-radius: 3px;
+}
+#yellow-button {
+	background: yellow;
+	margin: 20px;
+}
+#grey-button {
+	background: #cecece;
+	margin: 20px 0 20px 0;
 }
 .menu {
 	display: flex;
 	flex-direction: row;
-	background-color: lightgrey;
+	background-color: #fafafa;
 	border: 1px solid;
 	border-color: grey;
 }
