@@ -1,0 +1,91 @@
+body {
+margin: 0 auto;
+}	
+header {
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+	background: black; 
+	padding: 10px;
+	height: 65px;
+	flex-direction: row;
+	align-items: center;
+}
+header .nav-left {
+	justify-content: flex-start;
+}
+header .nav-right {
+	justify-content: flex-end;
+}
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+span {
+	color: lightgrey;
+}
+.blue-bar {
+	width: 100%;
+	background: navy;
+}
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	font-size: 45px;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+#map {
+	display: flex;
+	background-image: url('../img/nyc-subway-map-hi-res.png');
+	background-size: cover;
+	position: relative;
+	height: 800px;
+	max-width: 100%
+}
+.content {
+	position: relative;
+    display: block;
+    margin : 0 auto;
+    align-content: center;
+	height: 300px;
+	background-color: lightgrey;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+	padding: 50px;
+	margin: 0 auto;
+}
+.text {
+	width: 60%;
+	height: 25px;
+	border-radius: 3px;
+}
+input, .text {
+	position: relative;
+    display: block;
+    margin : 0 auto;
+    align-content: center;
+}
+#second-input {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
