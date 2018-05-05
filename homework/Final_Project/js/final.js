@@ -1,4 +1,4 @@
-//As a user, I want to be able to navigate around the NYC subway efficiently without having to change routes due to broken elevators that I was not aware of so I can get to my destination on time if I am disabled.
+// As a user, I want to be able to navigate around the NYC subway efficiently without having to change routes due to broken elevators that I was not aware of so I can get to my destination on time if I am disabled.
 
 // As a user, I want to be able to enter a starting address and destination address in the input field 
 
