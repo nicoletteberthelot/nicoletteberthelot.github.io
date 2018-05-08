@@ -1,36 +1,37 @@
 // As a User
 // When I view the site
 // I see a map
-   // var map;
-   //    function initMap() {
-   //      map = new google.maps.Map(document.getElementById('map'), {
-   //        center: {lat: -34.397, lng: 150.644},
-   //        zoom: 8
-   //      });
-   //    }
+   var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
 
 // As a User
 // When I view the site
 // I expect to only see NYC
 
 var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.730610, lng: -73.935242},
-          zoom: 11
-        });
-        var newSpot lat: 40.730610, lng: -73.935242}
-        var marker = new google.maps.Marker({
-          position: newSpot,
-          map: map
-        });
-      }
-
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 40.730610, lng: -73.935242},
+    zoom: 11
+}); 
+}         
 
 
 // As a User
 // When I view the site
 // I want to see a marker on NYC
+
+var marker1 = new google.maps.Marker({
+    position: {lat: 40.730610, lng: -73.935242},
+    map: map,
+  }); 
+
+
 
 // Bonus:
 
